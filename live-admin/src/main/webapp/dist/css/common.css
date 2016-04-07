@@ -1,0 +1,17 @@
+.sorting_col{
+	background-image: linear-gradient(to bottom, #eff3f8 0px, #e3e7ed 100%); 
+	background-repeat: repeat-x;
+	color: #307ecc;
+}
+.sorting_after{
+	color: #555;
+    display: inline;
+    float: right;
+    font-family: FontAwesome;
+    font-size: 13px;
+    font-weight: 400;
+}
+.pointer{
+	cursor:pointer;
+}
+}

@@ -1,0 +1,31 @@
+
+/*jquery limiter css *******start*******/
+.limiterBox {
+    border: 1px solid #6fb3e0;
+    border-top: none;
+    background-color: #6fb3e0;
+    padding: 3px 6px;
+    font-size: 13px;
+    color: #FFF;
+    margin-top: 6px
+}
+
+.limiterBox:after {
+    display: none
+}
+.limiterBox:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -8px;
+    left: 50%;
+    margin-left: -5px;
+    border-color: transparent;
+    border-style: solid;
+    border-bottom-color: #6fb3e0;
+    -moz-border-bottom-colors: #6fb3e0;
+    border-width: 0 8px 8px
+}
+/*jquery limiter css *******end*******/

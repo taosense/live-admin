@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For assistance related to logback-translator or configuration -->
+<!-- files in general, please contact the logback user mailing list -->
+<!-- at http://www.qos.ch/mailman/listinfo/logback-user -->
+<!-- -->
+<!-- For professional support please see -->
+<!-- http://www.qos.ch/shop/products/professionalSupport -->
+<!-- -->
+<configuration>
+
+	<!-- 控制台输出 -->
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d [%t] %-5p %c - %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- 本系统日志——滚动文件 -->
+	<appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${user.home}/.apps/xh-live-system/log/root.log</File>
+		<encoder>
+			<pattern>%d [%t] %-5p %c - %m%n</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<!-- 只保存INFO及更高级别的log信息 -->
+			<level>INFO</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${user.home}/.apps/xh-live-system/log/root-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<!-- keep 1080 days' worth of history -->
+			<maxHistory>1080</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 10MB -->
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+
+	<!-- 本系统错误日志——滚动文件 -->
+	<appender name="ROLLING_FILE_ERROR"	class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${user.home}/.apps/xh-live-system/log/error.log</File>
+		<encoder>
+			<pattern>%d [%t] %-5p %c - %m%n</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<!-- 只保存ERROR级别的log信息 -->
+			<level>ERROR</level>
+		</filter>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${user.home}/.apps/xh-live-system/log/error-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<!-- keep 1080 days' worth of history -->
+			<maxHistory>1080</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 10MB -->
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+
+
+	<!--调试时打开-->
+	<!--<root level="DEBUG">-->
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+	<logger name="com.xinhuanet.live" level="INFO">
+		<appender-ref ref="ROLLING_FILE" />
+		<appender-ref ref="ROLLING_FILE_ERROR" />
+	</logger>
+
+</configuration>

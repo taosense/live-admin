@@ -1,0 +1,378 @@
+/*reset.css*/
+.fl{
+    float: left;
+}
+.highLight{
+    color: red;
+}
+/*直播*/
+.basicPane{
+    overflow: hidden;
+}
+.liveFormWrap{
+    padding-top: 20px;
+}
+.basicPane .infoWrap{
+    margin-bottom:10px; 
+    width: 100%;
+    float: left;
+    min-height: 34px;
+}
+
+.basicPane .infoWrap input{
+    padding-left: 20px;
+    height:34px;
+}
+.basicPane .infoWrap label{
+    text-align: right;
+    line-height: 34px;
+}
+/* 模块 start */
+.infoWrap{
+	margin-top:5px; 
+    margin-bottom:5px; 
+    width: 100%;
+    float: left;
+    min-height: 34px;
+}
+
+.newsinfoInput{
+    padding-left: 14px !important;
+    height:34px;
+    line-height:34px;
+}
+.tempPane .infoWrap label{
+    text-align: right;
+    line-height: 34px;
+}
+.newsDescp{
+	 margin: 0 4px;
+	 height: 70px;
+    resize: vertical;
+}
+/* 模块 end */
+.basicPane .infoWrap select{
+    height: 34px;
+    line-height: 34px;
+}
+.basicPane .descp{
+    margin: 0 4px;
+    resize: vertical;
+}
+.basicPane .descpWrap{
+    height: auto;
+}
+.basicPane .addPhotoWrap{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.basicPane .isShowLPAvatar,.basicPane .isShowLPName{
+    line-height: 34px;
+}
+.basicPane .isShowLPAvatar input,.basicPane .isShowLPName input{
+    vertical-align: middle;
+    margin-top: -4px;
+}
+.basicPane .isShowLPAvatar input:nth-child(2),.basicPane .isShowLPName input:nth-child(2){
+    margin-left: 20px;
+}
+.basicPane .resetBtn{
+    margin-left: 20px;
+}
+.saveBtnWrap{
+    width: 154px;
+    margin: 0 auto;
+}
+.uploadPicFile_fileImg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("images/uploadImgFile.png") no-repeat center;
+}
+.uploadPicFile_fileBtn {
+    width: 150px !important;
+    height: 150px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    font-size: 80px !important;
+}
+.uploadPicFile_fileWrap {
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+    line-height: 150px;
+    width: 150px;
+    left: 3px;
+    margin: 0 0 10px 0;
+}
+.carouselImgWrap{
+    margin-top: 40px;
+}
+.liveVideoWrap{
+    position: relative;
+    float: left;
+    width:100%;
+}
+#delVideobtn{
+ display: none;
+ margin-right: 10px;
+}
+
+.basicPane .picLabel{
+    text-align: right;
+}
+.picLabel{
+    text-align: right;
+}
+
+.basicPane .leftPicWrap .infoWrap{
+    margin-top: 10px;
+}
+.tempPane .tempTitle{
+	float: left;
+  width: 100%;
+    background: #CFCFCF;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+.tempPane .tempWrap{
+ /*     height: 190px;
+  line-height: 50px;
+  box-sizing: border-box;
+  margin-bottom: 20px; */
+  min-height: 300px;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.tempTitleText{
+	font-size:18px;
+	float:left;
+}
+.tempBtnWrap{
+	float:right;
+	  margin-right: 10px;
+}
+.tempConFrom{
+	  float: left;
+  padding: 10px;
+  width: 100%;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.tempOpenBtn{
+	margin-right:10px;
+}
+.addNodesWrap{
+  width: 100%;
+  text-align: center;
+  float: left;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+  border-top: none;
+}
+.tempCon-closeBtn,.tempCon-closeBtn:hover{
+	color:#d15b47;
+	  text-decoration: none;
+}
+.tempConBox{
+	display:none;
+	float:left;
+}
+
+.dataTables_wrapper .row:last-child{
+	border:none;
+}
+.resetBtn{
+	margin-left:10px;
+}
+.channelCon{
+	float:left;
+}
+/*jquery limiter css *******start*******/
+.limiterBox {
+    border: 1px solid #6fb3e0;
+    border-top: none;
+    background-color: #6fb3e0;
+    padding: 3px 6px;
+    font-size: 13px;
+    color: #FFF;
+    margin-top: 6px
+}
+
+.limiterBox:after {
+    display: none
+}
+.limiterBox:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -8px;
+    left: 50%;
+    margin-left: -5px;
+    border-color: transparent;
+    border-style: solid;
+    border-bottom-color: #6fb3e0;
+    -moz-border-bottom-colors: #6fb3e0;
+    border-width: 0 8px 8px
+}
+/*jquery limiter css *******end*******/
+.previewPicWrap{
+	display:none;
+	width:100px;
+}
+.previewPic{
+     width: 500px; 
+    float: left;
+    vertical-align: middle;
+    display: inline;
+}
+.pushToChannelClass{
+    display:none;
+}
+.liveVideoDivWrap{
+	display:none;
+}
+.tempConWrap{
+	float:left;
+}
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+.liverUserGroupSelect{
+    margin-top: 12px !important;
+}
+.bannerImgWrap{
+  width: 100%;
+  min-height: 140px;
+  border: 1px solid #ccc ;
+  border-top: none ;
+  float:left
+}
+
+/* 半透明效果 zm */
+.semitransparent{
+  filter: alpha(Opacity=40);
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+  background-color: #CFCFCF !important; 
+}
+.modulePicLeft{
+	position: relative;
+    left: -30px !important;
+}
+
+.uploadNewsPicBox{
+	float:left;
+	width: 100%;
+}
+.newsinfos-body{
+	float: left;
+  background-color: #fff;
+}
+.newsInfoDescp{
+	 margin-left:1px; 
+}
+.modalPicShow{
+	float: left;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  margin-left: -115px;
+  top:10px;
+}
+.modulePicMargin{
+ left: 90px !important; 
+ margin: 10px 0 10px -90px !important;
+}
+.ztreeShowMenu{
+  /* margin-left: 333px !important;
+  margin-top: -745px !important; */
+}
+
+.noPading{
+	padding: 0;
+	line-height: 34px;
+}
+.groupWrap{
+	line-height: 34px;
+	padding: 10px;
+}
+.liOnhover{
+	backgroud:blue;
+}
+/* #selectedArticlesWrap li .articleTitleSpan{
+	display:block;
+} */
+.showSelectedArticleWrap{
+	line-height: 1.5;
+	list-style-type:decimal;
+}
+.articleListDiv{
+	border:1px solid #ccc;
+	height:560px;
+	overflow-y:auto; 
+	overflow-x:auto;"
+}
+ .articleTitleSpan{
+    cursor: pointer;
+}
+.upDownIconWrap .glyphicon{
+	 cursor: pointer;
+}
+.articleModalTitle{
+  width: 100%;
+  background: #CFCFCF;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  line-height: 30px; */
+}
+.hoverGrey{
+	color:#ccc;
+}
+.hoverUpDown{
+    color:#428bca;
+}
+.oddlistColor{
+	background-color:#EFF3F8;
+}
+/* .hoverDown{
+    color:yellow;
+} */
+.articleSearchInfoWrap{
+	line-height: 25px;
+}
+.articleSearchInfo{
+	padding-left: 7px;
+}
+.articleSearchInfo span{
+	display: inline-block;
+}
+.spanInfo span{
+	color:#227700;
+	/* white-space:pre-wrap; */
+	word-wrap:break-word ;
+	 padding-right:15px;
+	
+}
+.keySpanWrap{
+	/* padding-left:13px; */
+}

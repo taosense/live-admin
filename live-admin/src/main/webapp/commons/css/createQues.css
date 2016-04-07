@@ -1,0 +1,392 @@
+@charset 'utf-8';
+/*模块标题*/
+label.title {
+    color: #fff;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    background: #87859a;
+    line-height: 32px;
+    width: 84px;
+}
+
+.quesBackground-con {
+    line-height: 32px;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+}
+
+/*已出题目*/
+.createQuesWrap {
+    border-top: #b3b3b3 1px solid;
+}
+
+.createQuesWrap-con {
+    margin: 30px 0 0 0px;
+    position: relative;
+    padding: 0 30px 0 0;
+}
+
+.createQues-tab {
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    float: left;
+    background: #6461d7;
+    top: 3px;
+    left: -4px;
+}
+
+.createQues-title {
+    font-size: 20px;
+    color: #1a1a1a;
+    padding: 2px 0 4px 2px;
+    margin: 0 0 0 125px;
+    line-height: 28px;
+}
+
+.createQues-titleWrap span {
+    float: left;
+    background: #7774ff;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.createQues-point {
+    color: #fff;
+    padding: 0 6px;
+}
+
+.createQues-num {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.createQues-type {
+    color: #fff600;
+    padding-right: 10px;
+}
+
+.createQues-Multitype {
+    color: #87f8ff;
+}
+
+.createQues-explainWrap {
+    margin-top: 22px;
+}
+
+.createQues-explainTitle {
+    background: #9a95ff;
+    width: 84px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px 30px 60px;
+    float: left;
+}
+
+.createQues-explainText {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    line-height: 20px;
+    padding-top: 6px;
+    float: left;
+    width: 600px;
+}
+
+.createQues-optionWrap li {
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 32px;
+    margin-bottom: 20px;
+    float: left;
+    width: 800px;
+}
+
+.createQues-optionWrap span {
+    float: left;
+}
+
+.createQues-subNum {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    background: #b3b1c4;
+    text-align: center;
+    margin-left: 62px;
+}
+
+.createQues-option {
+    color: #4c4c4c;
+    margin-left: 10px;
+    width: 660px;
+    line-height: 22px;
+    padding: 5px 0;
+}
+
+.createQues-right {
+    width: 50px;
+    background: #ea6c45;
+    color: #fff;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.createQues-btnWrap {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.createQues-btnWrap a {
+    float: left;
+    width: 36px;
+    height: 36px;
+}
+
+.topTitleWrap {
+    padding: 15px 0 50px 0;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.questionTitle {
+    float: left;
+}
+
+.quesBackground {
+    padding: 20px 0;
+}
+
+.createQues-optionPic {
+    float: left;
+    margin: 2px 0 0 10px;
+    width: 240px;
+    height: 240px;
+}
+
+.createQues-optionWrap {
+    float: left;
+    width: 670px;
+}
+
+.createQues-titleImg {
+    width: 460px;
+    height: 300px;
+    display: block;
+    margin: 0 0 26px 190px;
+}
+
+.swf_holder {
+    text-align: center;
+    background: #f2f2f2;
+    padding-top: 20px;
+    width: 766px;
+    margin: 0 auto;
+}
+
+.swf_upload_btnWrap {
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+}
+
+.createQues-totalTitleAudio {
+    margin: 10px 0 10px 190px;
+    width: 500px;
+
+}
+
+.createQues-titleVideo,.topic-titleVideo {
+    float: left;
+    width: 480px;
+    height: 270px;
+    margin: 32px 0 24px 190px;
+    position: relative;
+    background: url(video_btn.png) #555 center no-repeat;
+    cursor: pointer;
+}
+
+.createQues-totalTitleVideo {
+    background: url(video_btn.png) #555 center no-repeat;
+    cursor: pointer;
+    width: 480px;
+    height: 270px;
+    margin: 10px 0 10px 190px;
+    position: relative;
+}
+
+.createQues-titleAudio,.topic-titleAudio {
+    float: left;
+    width: 500px;
+    height: 40px;
+    margin: 0 0 26px 190px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.topic-titleVideo,.topic-titleAudio{
+    float: none;
+}
+
+.createQues-optionVideo {
+    float: left;
+    margin: 2px 0 0 10px;
+    width: 450px;
+    height: 240px;
+    position: relative;
+}
+
+.createQues-optionAudio {
+    float: left;
+    margin: 2px 0 0 10px;
+    width: 500px;
+    height: 40px;
+    position: relative;
+}
+
+.optionUploadedVideo {
+    width: 450px;
+    height: 240px;
+    background: url(video_btn.png) #555 center no-repeat;
+    cursor: pointer;
+}
+
+.uploadedVideoWrap {
+    position: relative;
+}
+
+.videoFlash {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.uploadedAudioWrap {
+    float: left;
+    margin-top: 10px;
+}
+
+.uploadedAudio {
+    float: left;
+    width: 500px;
+    height: 40px;
+}
+
+.uploadAudioWrap {
+    height: 40px;
+    margin: 180px 0 100px 0;
+}
+/*话题*/
+.topicCon{
+    padding: 10px 10px 0 10px;
+    line-height:32px;
+    font-size: 16px;
+}
+.topic-titleImg{
+    width: 460px;
+    height: 300px;
+    display: block;
+    margin: 10px 0 6px 10px;
+}
+.topicCon label{
+  color: #fff;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  background: #87859a;
+  line-height: 32px;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+.topicCon span{
+    line-height: 32px;
+    font-size: 16px;
+    padding: 0 12px;
+    float: left;
+}
+.topicCon a{
+  line-height: 32px;
+  float: left;
+  padding: 0 10px;
+}
+
+
+.videoImg{
+  width: 480px;
+  height: 270px;
+  float: left;
+}
+
+.videoImgBtn{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  width: 100%;
+  height: 100%;
+}
+.videoImgBtn{
+    background: url("video_btn.png") #000 center no-repeat;
+}
+.videoPlayWrap{
+    float: left;
+    margin-top: 10px;
+}
+
+.topicCon-wrap{
+  width: 670px;
+  overflow: auto;
+  padding: 10px 10px 0 10px;
+}
+
+/*base*/
+.ml64 {
+    margin: 64px 0 0 0;
+}
+
+.ml46 {
+    margin: 46px 0 0 0;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.mt10b0 {
+    margin: 10px 0 0 0;
+}
+
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block
+}
+
+* html .clearfix {
+    height: 1%
+}
+
+.clearfix {
+    display: block
+}
+
+ol, ul, li {
+    list-style-type: none;
+}

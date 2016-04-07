@@ -1,0 +1,231 @@
+a{
+ text-decoration: none;
+ color: #333;
+ cursor: pointer;
+}
+.mediaChoose {
+    width: 100%;
+    position: relative;
+    padding-bottom: 40px;
+}
+.closeSwf {
+    width: 20px;
+    height: 20px;
+    font-size: 24px;
+    line-height: 20px;
+    z-index: 1002;
+    position: absolute;
+    right: 0;
+}
+.uploadPicFile_fileWrap {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    line-height: 200px;
+    width: 200px;
+    left: 50%;
+    margin: 60px 0 66px -100px;
+}
+
+.uploadPicFile_btnWrap {
+    text-align: center;
+    display: none;
+}
+
+.uploadPicFile_fileImg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("images/uploadImgFile.png") center no-repeat;
+}
+
+.questionMain input, .questionMain select, .questionMain input, .questionMain textarea {
+    border: 1px solid #adbac8;
+    height: 30px;
+    line-height: 30px;
+    outline: medium none;
+    color: #b2b2b2;
+    text-indent: 10px;
+    font-size: 14px;
+    width: 515px;
+}
+
+.uploadPicFile_btnWrap a {
+    display: inline-block;
+    font-size: 16px;
+    width: 104px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+}
+.uploadPicFile_btnWrap a:hover{
+  text-decoration: none;
+}
+
+.upload_btn_confirm{
+    background: #7774ff;
+    margin-right: 18px;
+    
+}
+
+.upload_btn_cancel{
+    background: #92b4ff;
+}
+
+.uploadPicFile_fileBtn {
+    width: 200px !important;
+    height: 200px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    font-size: 80px !important;
+}
+.uploadPicFile_loading {
+    background: url("images/loading.gif") no-repeat center;
+}
+.uploadedPicWrap{
+    display: none;
+}
+
+.uploadedPicWrap{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    max-height:350px;
+    left: 50%;
+    margin: 60px 0 66px -100px;
+    width: 230px;
+}
+
+.uploadedPic{
+    width: 200px;
+    float: left;
+    vertical-align: middle;
+    display: inline;
+}
+.uploadedModularPic{
+    width: 200px;
+    max-height: 180px;
+    float: left;
+    vertical-align: middle;
+    display: inline;
+}
+
+.imgDelBtn,.videoDelBtn {
+    background: #5f646e;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    color: #fff !important;
+    display: none;
+    border: none;
+}
+.uploadPicShow{
+   width: 100%;
+   float: left;
+}
+
+.uploadPicShow .uploadedPicWrap{
+   position: static;
+   margin:0 10px 0 0;
+   float:left;
+}
+
+.uploadPicShow .uploadedPic {
+    width: 100px;
+    height: 100px;
+}
+
+.uploadPicShow .uploadedPicWrap{
+    height:120px;
+}
+.uploadImgIco{
+    display:block;
+}
+
+.uploadedVideo{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    background: #ccc;
+    color: #000;
+}
+.uploadedVideoBox{
+   float: left;
+   margin-right: 20px;
+}
+.uploadVidShow{
+    float:left;
+    width: 100%;
+}
+.uploadImgBtn{
+   width: 80px !important;
+   height: 77px !important;
+   margin: 10px 10px 0 0 !important;
+}
+.bannerUploadBtn{
+   width: 80px !important;
+   height: 77px !important;
+   margin-top: 45px !important;
+   margin-bottom: 10px !important;
+}
+.leftPicWrap .uploadedPicWrap{
+    margin: 0 0 0 -100px;
+}
+
+.uploadedPicWrap-mutiWrap{
+    position: relative;
+    overflow: auto;
+    height: auto;
+    padding: 10px;
+    max-height: 350px;
+}
+.uploadedPicWrap-muti{
+    float: left;
+    margin: 10px 30px;
+}
+
+.uploadedPicWrap-muti .uploadedPic{
+    border: 1px solid #ccc;
+}
+.uploadImgBox .uploadedPic{
+    height: 150px;
+}
+
+
+.mediaChooseWrap .uploadPicFile_fileWrap{
+    margin:0 0 0 -100px;
+}
+.mediaChooseWrap .mediaChoose{
+   padding-bottom: 0px;
+}
+.mediaChooseWrap .uploadedPicWrap{
+    margin: 10px 0 20px -100px;
+}
+
+.bannerUrlInput{
+    margin: 12px 0 !important;
+    height: 30px;
+    line-height: 30px;
+}
+
+.bannerPicShow .uploadedPicWrap{
+    height: 200px;
+    margin: 10px 0 0 -100px;
+}
+.bannerPicShow .uploadedPic{
+	width: 200px;
+	max-height:195px;
+    float: left;
+    vertical-align: middle;
+    display: inline;
+}
